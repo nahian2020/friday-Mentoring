@@ -13,15 +13,15 @@ public class ArrayDemo {
     public static void main(String[] args) {
         ArrayDemo s1=new ArrayDemo();
         //s1.readArrayUsingForLoop(s1.studentId);
-        s1.readArrayUsingForLoop(s1.num);
+        s1.readArrayUsingForLoop(s1.a);
         System.out.println(">>>>>>>>>>>");
         s1.readArrayUsingForEachLoop(s1.num);
 
     }
     public void readArrayUsingForLoop( int [] arrayb ){
 
-        for (int value : arrayb) {
-            System.out.println(value);
+        for(int i=0; i<arrayb.length; i++){
+            System.out.println(arrayb[i]);
         }
         System.out.println();
         //Cant hard code any array here
