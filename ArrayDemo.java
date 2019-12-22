@@ -35,12 +35,5 @@ public class ArrayDemo {
     }
 
 
-    public void writeMethod(String S){
+    
 
-        //Cant hard code any array here
-    }
-    public void buyFood(int money){
-
-System.out.println("We need money for food " + money);
-    }
-}
